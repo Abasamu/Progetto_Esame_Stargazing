@@ -1,0 +1,662 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+    
+}
+section {
+    margin: 130px 0;
+}
+img {
+    max-width: 100%;
+}
+.header{
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    background-color: #B90B0C;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.home{
+    margin: auto;
+    text-align: center;
+    background-color:#B90B0C;
+}
+.home h1{
+    margin: auto;
+    font-size: 48px;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.home a{
+    text-align: center;
+    margin: auto;
+    padding-left: 5%;
+}
+.zodiaco{
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    max-width: 100%;
+
+}
+.ascendente{
+    font-size: 20px;
+    margin: auto;
+    max-width: 100%;
+    font-weight: bold;
+
+}
+header h1{
+    font-size: 36px;
+    color: #E2B963;
+    text-align: center;
+    margin:0;
+    padding-top: 20px;
+    
+}
+header a{
+    text-decoration: none;
+    color: #E2B963;
+}
+a:hover{
+    color: white;
+}
+nav {
+    margin:0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  nav ul li {
+    
+    text-align: center;
+    position: absolute;
+    top: -200px;
+  }
+  
+  nav ul a {
+    
+    padding-top: 20px;
+    color: #E2B963;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding-left:  100px;
+    
+  }
+  
+  .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+  }
+  
+  .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    z-index: 3;
+  }
+  
+  .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 16px;
+    right: 16px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .imgastro{
+    text-align: center;
+    margin: auto;
+    padding-top: 130px;
+  }
+  .imgastro h3{
+    text-align: center;
+    color: #E2B963;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -230px;
+    left: 0px;
+  }
+  .testo {
+    padding-top: 110px;
+    max-width: 840px;
+    margin: auto;
+
+}
+  .testo p {
+    max-width: 100%;
+    line-height: 1.4;
+    margin:auto;
+    margin-bottom: 1.4rem;
+    padding: 0px;
+}
+.tabella{
+    display: grid;
+    gap: 120px;
+    row-gap: 96px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    max-width: 800px;
+    margin: 128px auto;
+}
+.tabella h2{
+    color: #B90B0C;
+}
+.tabella p{
+    color: black;
+    margin: auto;
+}
+.animali p:hover{
+    color: #B90B0C;
+    font-weight: bold;
+}
+.testo1{
+    max-width: 840px;
+    margin: auto;
+}
+.testo1 h2{
+    padding-top: 130px;
+    font-size: 23px;
+    text-align: center;
+    color: #B90B0C;
+    margin-bottom: 60px;
+}
+.testo1 p{
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 1.4rem;
+
+}
+.ruota{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.indice{
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+  }
+  .indice a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+  }
+  .indice a:hover{
+    color: #B90B0C;
+  }
+.d h2{
+    padding: 0px;
+}
+.paragrafo {
+    max-width: 100%;
+    line-height: 1.4;
+    margin:auto;
+    margin-bottom: 1.4rem;
+    padding: 0px;
+}
+.footer {
+    background-color: #B90B0C;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.contatti {
+    max-width: 100%;
+    margin: auto;
+    display: flex;   
+}
+.chisiamo{
+    margin: auto;
+}
+.chisiamo h2{
+    color: white;
+    margin: auto;
+}
+.chisiamo p{
+    color: white;
+    width: 300px;
+}
+
+.seguici {
+    color: white; 
+    margin: auto;
+}
+
+.seguici h2 {
+    margin: auto;
+    
+}
+
+.insta {
+    display: inline-flex;
+    padding-top: 40px;
+    margin: auto; 
+}
+.insta a{
+    color: white;
+    padding: 0px;
+}
+
+.face {
+   display: flex;
+   padding-top: 20px;
+   margin: auto;
+}
+.face a {
+   color: white;
+ }
+
+.seguici p {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: auto;
+    
+}
+.seguici a{
+    text-decoration: none;
+}
+
+.copy {
+    margin: auto;
+    text-align: center;
+    
+}
+.copy p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+@media only screen and (max-width: 430px) {
+    body{
+        margin: auto;
+    }
+    header{
+        margin: auto;
+        max-width: 100%;   
+    }
+    .home h1{
+        text-align: center;
+        background-color: #B90B0C;
+        margin: auto;
+        font-size: 30px;
+        max-width: 100%;
+        padding-right: 25px;
+    }
+    .zodiaco{
+        font-size: 0px;
+        margin:  auto;
+        font-weight: bold;
+        padding-top: 100px;
+        text-align: center;
+        max-width: 100%;
+        padding-top: 5px;
+    }
+    .ascendente{
+        font-size: 0px;
+        text-align: center;
+        margin: auto;
+        max-width: 100%;
+        font-weight: bold;
+        padding-top: 5px;
+        margin-left: 7%;
+    }
+
+    .imgastro{
+        width: 350px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px;
+      }
+      .imgastro h3{
+        font-size: 11px;
+        text-align: center;
+        color: #E2B963;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: -110px;
+        left: 0px;
+      }
+      .testo {
+        padding-top: 60px;
+        max-width: 340px;
+        margin: auto;
+    
+    }
+    .testo p {
+        width: 340px;
+        line-height: 1.4;
+        margin-bottom: 1.4rem;
+        font-size: 14px;
+    }
+    .tabella{
+        display: grid;
+        gap: 0px;
+        row-gap: 96px;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin: 50px auto;
+    }
+    .tabella h2{
+        color: #B90B0C;
+        font-size: 18px;
+    }
+    .tabella p{
+        color: black;
+        margin: auto;
+        font-size: 14px;
+    }
+      .testo1{
+        max-width: 340px;
+        margin: auto;
+    }
+    .testo1 h2{
+        padding-top: 80px;
+        font-size: 18px;
+        text-align: center;
+        color: #B90B0C;
+        margin-bottom: 50px;
+    }
+    .testo1 p{
+        width: 340px;
+        line-height: 1.4;
+        margin-bottom: 1.4rem;
+        font-size: 14px;
+    
+    }
+    .ruota{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .indice{
+        text-align: center;
+        padding-top: 50px;
+        margin: auto;
+      }
+      .indice a{
+        font-size: 11px;
+        font-weight: bold;
+        color: black;
+      }
+      .indice a:hover{
+        color: #B90B0C;
+      }
+    .d h2{
+        padding: 0px;
+    }
+    .paragrafo {
+        max-width: 100%;
+        line-height: 1.4;
+        margin:auto;
+        margin-bottom: 1.4rem;
+        padding: 0px;
+    }
+    .testo {
+        max-width: 340px;
+        margin: auto;
+    
+    }
+    .testo h2{
+        margin-top: -50px;
+        font-size: 20px;
+        color: #B90B0C;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        background-color: #B90B0C;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    .contatti {
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;   
+    }
+    .chisiamo{
+        margin: auto;
+    }
+    .chisiamo h2{
+        font-size: 18px;
+        color: white;
+        margin: auto;
+        text-align: center;
+    }
+    .chisiamo p{
+        color: white;
+        width: 300px;
+        font-size: 14px;
+    }
+    
+    .seguici {
+        color: white; 
+        margin: auto;
+
+    }
+    
+    .seguici h2 {
+        margin: auto;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    
+    .insta {
+        display: inline-flex;
+        padding-top: 20px;
+        margin: auto; 
+        width: 30px;
+    }
+    .insta a{
+        color: white;
+        padding: 0px;
+        font-size: 14px;
+    }
+    
+    .face {
+       display: flex;
+       padding-top: 20px;
+       margin: auto;
+       width: 30px;
+       padding-right: 170px;
+    }
+    .face a {
+       color: white;
+       font-size: 14px;
+     }
+    
+    .seguici p {
+        padding-top: 10px;
+        margin: auto;
+        
+    }
+    .seguici a{
+        text-decoration: none;
+    }
+    
+    .copy {
+        margin: auto;
+        text-align: center;
+        
+    }
+    .copy p{
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        padding-top: 50px;
+        margin: auto;
+        
+    }
+    .checkbox {
+        display: block;
+        
+        
+      }
+        nav {
+            margin:0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            background-color: #B90B0C;
+            text-align: center;
+
+            
+          }
+
+      nav ul {
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+        margin: 0;
+        opacity: 0;
+        background-color: #B90B0C;
+        width: 100%;
+        height: 850px;
+        font-weight: bold;
+        justify-content: center;
+        z-index: 4;
+        top: 60px;
+        
+       
+      }
+      ul li{
+        text-align: center;
+      }
+      nav li{
+        font-weight: bold;
+        color: #E2B963;
+        background-color: #B90B0C;
+        display: flex;
+        position: absolute;
+        right: 50px;
+        top: 100px;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        
+        
+        
+      }
+      nav ul li{
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        position: relative;
+        right: 60px;
+        top: -50px;
+      }
+      .menu{
+        background-color: #E2B963;
+        
+      }
+    
+      input[type="checkbox"]:checked ~ nav ul {
+        opacity: 100;
+        
+      }
+    
+      .hamburger-lines {
+        opacity: 100;
+        color: #E2B963;
+        padding-top: 10px;
+      }
+    
+      ul li {
+        display: block;
+        background-color: #B90B0C;
+      }
+    
+       .submenu {
+        width: 10%;
+        display: block;
+        position: relative;
+        padding: 10px 0;
+        margin: 30;
+        
+       }
+       .hamburger-lines .line {
+
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #E2B963 ;
+        z-index: 3;
+        
+      }
+}
+
