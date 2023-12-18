@@ -64,6 +64,9 @@ header a{
 a:hover{
     color: white;
 }
+#menu li{
+    margin: 0;
+}
 nav {
     margin:0;
     padding: 0;
@@ -167,7 +170,7 @@ nav {
   .indice{
     text-align: center;
     margin: auto;
-    max-width: 100%;
+    max-width: 90%;
   }
   .indice a{
     font-weight: bold;
@@ -194,7 +197,8 @@ nav {
     color: #B90B0C;
 }
 .compatibilità{
-    margin: auto;
+    margin-top: 0;
+
 }
 .compatibilità h3{
     color: #B90B0C;
@@ -231,7 +235,7 @@ nav {
 
 }
 .caratteristiche p{
-    max-width: 100%;
+    max-width: 90%;
     line-height: 1.4;
     margin:auto;
     margin-bottom: 1.4rem;
@@ -249,7 +253,7 @@ nav {
 
 }
 .salute p{
-    max-width: 100%;
+    max-width: 90%;
     line-height: 1.4;
     margin:auto;
     margin-bottom: 1.4rem;
@@ -267,7 +271,7 @@ nav {
 
 }
 .curiosità p{
-    max-width: 100%;
+    max-width: 90%;
     line-height: 1.4;
     margin:auto;
     margin-bottom: 1.4rem;
@@ -278,15 +282,16 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 0;  
-    gap: 12%;
-    max-width: 100%;
+    gap: 4%;
+    max-width: 90%;
     margin: auto;
     padding-bottom: 100px;
 }
 .portafortuna{
     margin: 0 auto;
     margin-right: 0;
-    width: 300px;
+    width: 350px;
+
 }
 .portafortuna h2{
     padding-bottom: 50px;
@@ -294,12 +299,14 @@ nav {
 }
 .portafortuna p{
     font-weight: bold;
+    max-width: 90%;
 }
 .portasfortuna{
     margin: auto;
     margin-top: 0;
     margin-left: 0;
-    width: 300px;
+    width: 350px;
+
 }
 .portasfortuna h2{
     padding-bottom: 50px;
@@ -307,6 +314,7 @@ nav {
 }
 .portasfortuna p{
     font-weight: bold;
+    max-width: 90%;
 }
 
 
@@ -387,7 +395,7 @@ nav {
     
     
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
     body{
         margin: auto;
     }
@@ -437,7 +445,6 @@ nav {
         gap:0px;
         row-gap: 0px;
         grid-template-columns: 1fr 1fr 1fr;
-        padding-left: 30px;
     }
     .anni h3{
         font-size: 14px;
@@ -453,6 +460,7 @@ nav {
     .compatibilità{
         text-align: center;
         padding-left: 30px;
+        margin-top: 0;
     }
     .compatibilità h3{
         font-size: 14px;
@@ -502,7 +510,7 @@ nav {
     
     }
     .caratteristiche p{
-        width: 400px;
+        max-width: 90%;
         line-height: 1.4;
         margin-bottom: 1.4rem;
         font-size: 14px;
@@ -520,7 +528,7 @@ nav {
     
     }
     .salute p{
-        width: 400px;
+        max-width: 90%;
         line-height: 1.4;
         margin-bottom: 1.4rem;
         font-size: 14px;
@@ -538,7 +546,7 @@ nav {
     
     }
     .curiosità p{
-        width: 400px;
+        max-width: 90%;
         line-height: 1.4;
         margin-bottom: 1.4rem;
         font-size: 14px;
@@ -549,13 +557,13 @@ nav {
         flex-direction: column;
         margin-top: 0;  
         gap: 12%;
-        max-width: 100%;
+        max-width: 90%;
         margin: auto;
         padding-bottom: 100px;
     }
     .portafortuna{
         margin: auto;
-        width: 340px;
+        max-width: 90%;
         padding-bottom: 70px;
     }
     .portafortuna h2{
@@ -567,10 +575,12 @@ nav {
     .portafortuna p{
         font-weight: bold;
         font-size: 14px;
+        max-width: 90%;
     }
     .portasfortuna{
         margin: auto;
-        width: 340px;
+        max-width: 90%;
+
     }
     .portasfortuna h2{
         text-align: center;
@@ -581,6 +591,7 @@ nav {
     .portasfortuna p{
         font-weight: bold;
         font-size: 14px;
+        
     }
 
     .footer {
@@ -672,6 +683,9 @@ nav {
         margin: auto;
         
     }
+    #menu li{
+        margin: 0;
+    }
     .checkbox {
         display: block;
         
@@ -699,10 +713,9 @@ nav {
         opacity: 0;
         background-color: #B90B0C;
         width: 100%;
-        height: 850px;
+        height: 100%;
         font-weight: bold;
         justify-content: center;
-        z-index: 4;
         top: 60px;
         
        
